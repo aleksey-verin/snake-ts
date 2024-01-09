@@ -79,14 +79,18 @@ body,
 }
 
 .game-border-3 {
+  position: relative;
   border: #699db8 solid 30px;
   border-radius: 20px;
   box-shadow: inset 0 0 0 5px #1f7590;
+  background-color: #d2fdff;
 }
 
 #instruction-text {
   position: absolute;
-  top: 60%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #333;
   width: 300px;
   text-align: center;
@@ -116,11 +120,6 @@ body,
   display: none;
 }
 
-.game-border-3,
-#logo {
-  background-color: #d2fdff;
-}
-
 .snake {
   border: #5a5a5a 1px dotted;
 }
@@ -132,4 +131,7 @@ body,
 
 #logo {
   position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
