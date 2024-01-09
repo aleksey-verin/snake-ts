@@ -56,7 +56,7 @@ function setPosition(element: HTMLElement, position: Position) {
 }
 
 // Testing draw function
-draw();
+// draw();
 
 // Draw food function
 function drawFood() {
